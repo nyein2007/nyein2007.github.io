@@ -1,0 +1,12 @@
+h1{
+    color: brown;
+    text-align: center;
+    text-transform: capitalize;
+    text-indent: 50px;
+    font-size: 30px;
+}
+p{
+    text-indent: 50px;
+    width: 50%;
+    background-color:rgb(189, 89, 89)
+}
