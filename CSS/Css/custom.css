@@ -1,0 +1,177 @@
+/* Universel selector */
+*
+{}
+
+/* Tag Selector */
+h1{color: rgb(13, 13, 218);}
+
+/* attribute selector */
+a[Youtube]
+{color: rgb(58, 43, 226);}
+p{color: blue;}
+
+
+/* id selector */
+#id2{text-align: center;color: blueviolet;}
+#idselector{text-align: right; color: blue;}
+
+
+/* class selector */
+.classselector{color: brown;}
+
+/* Decendant selector */
+#dec a{color: brown;}
+
+
+/* Child selector */
+#child > a{color: rgb(19, 19, 19);}
+
+/* pseudo selector */
+a:link{
+    color: red;
+    text-decoration: none;
+}
+a:hover{
+    color: green;
+    text-decoration: underline;
+}
+a:active{
+    color: blue;
+}
+a:visited{
+    color: aqua;
+}
+/* target */
+p:target{
+    color: brown;
+    line-height: 20px;
+}
+h1{
+    text-align: center;
+}
+input[type="text"]:focus{
+background-color: rgb(231, 215, 215);
+word-spacing: normal;
+}
+input[type="radio"]:checked + label{
+    color: blue;
+    font-style: italic;
+}
+#data{
+    width: 40%;
+    margin: auto;
+}
+/* enable */
+input[type="checkbox"]:enabled + label{
+    color: green;
+}
+input[type="checkbox"]:disabled + label{
+    color:beige
+}
+input[type="checkbox"]:checked + label{
+    color: blueviolet;
+    font-style: italic;}
+    #fname:read-only{
+        background-color: green;
+        color: white;
+    }
+/* div{
+    margin: auto;
+} */
+   /* empty */
+   div:empty{
+    color: red;
+   }
+   /* first child & last Child */
+   ul li:last-child{
+    color: green;
+   }
+   ul li:first-child{
+    color: blue;
+   }
+
+   /* nth-child */
+   ul li:nth-child(3){
+    color: blueviolet;
+    font-style: italic;
+   }
+
+   #zz{
+    width: 40%;
+    margin: auto;
+   }
+/* margin */
+#marginone{
+    margin: 50px;
+}
+   #margintwo{
+    border: 10px solid black;
+    margin-left:100px ;
+   }
+   /* padding */
+   .paddingone{
+    padding: 10px 100px 20px 30px;
+   }
+   /* border */
+   .bordero{
+    border: 1px solid green;
+   }
+   .bordert{
+    border-style: solid dashed dotted double;
+    border-color: blue red green yellowgreen;
+    border-width: 10px 20px 30px 40px;
+   }
+   /* layout */
+   /* block&inline */
+   .Bone{
+    border: 1px solid green;
+    width: 100px;
+    height: 20px;
+    display: inline-block;
+   }
+   .Btwo{
+  border: 1px solid rgb(200, 242, 200);
+    width: 100px;
+    height: 20px;
+    display: inline-block;
+
+   }
+   h2{text-align: center;}
+
+.floatone{
+    width: 40%;
+    float:right;
+}
+.clear{
+    clear: both;
+}
+.floattwo{
+     width: 40%;
+    float:left;
+
+}
+/* grid */
+.gridone div{
+padding: 30px;
+text-align: center;
+color: azure;
+
+}
+.gridone,.gridtwo,.gridthree{
+    display: grid;
+    grid-template-columns:auto auto auto;
+    grid-gap: 20px;
+}
+.gridtwo div{
+padding: 30px;
+text-align: center;
+color: azure;}
+
+.gridcolumadd{
+    grid-column-start:1 ;
+    grid-column-end: 3;
+}
+.gridthree div{
+padding: 30px;
+text-align: center;
+color: azure;}
